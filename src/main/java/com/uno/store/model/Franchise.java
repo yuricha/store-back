@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class Franchise {
-    String franchiseName;
-    String cardNumber;
-    String type;
+    private String franchiseName;
+    private String cardNumber;
+    private String type;
 
 }
